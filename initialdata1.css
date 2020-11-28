@@ -1,0 +1,81 @@
+* {
+    margin: 10;
+    padding: 0;
+}
+
+body {
+
+}
+
+img {
+
+width: 100%;
+height: auto;
+}
+#OvsK {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    font-size:22px;
+    margin-top: -20px;
+    margin-left: 20px;
+    color:black;
+    z-index: 99;
+    }
+
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    width:1000vw; /* Bien sûr, plus on a de section ensuite, plus il faut agrandir cette valeur 
+    overflow-y: hidden;
+    background: white;
+} 
+
+#section-intro {
+    
+
+    background: white;
+    width:95vw;
+    overflow-y: hidden;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  Clear floats after image containers 
+  
+  */
+
+.row {
+    width:100%;  
+    padding:3px;
+
+    display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.clm {
+    transform: rotate(90deg);
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .h1 {
+    vertical-align: center;
+    text-align: left;
+    position: absolute;
+    z-index: 15;
+    margin-top: -140px;
+    margin-left: 15px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: normal;
+    color: black;			
+}
+
